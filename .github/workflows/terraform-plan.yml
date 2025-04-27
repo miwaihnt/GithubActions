@@ -23,9 +23,8 @@ jobs:
 
       - name: Test S3 Access (ls)
         run: |
-          echo "===== S3バケットリストを確認1 ====="
+          echo "===== S3バケットリストを確認 ====="
           aws s3 ls s3://tf-state-backend-252219867511 --region us-east-1
-
 
 
 
