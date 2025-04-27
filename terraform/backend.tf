@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket       = "tf-state-backend-252219867511"
+    bucket       = "snow-git-terra "
     key          = "terraform.tfstate"
-    region       = "ap-northeast-1"
+    region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
   }
