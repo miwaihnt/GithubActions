@@ -1,7 +1,7 @@
 import os
 import glob
 import yaml
-
+# test
 # ロールyml生成
 def transform_role_yml(file_path):
     data = load_yml(file_path)
